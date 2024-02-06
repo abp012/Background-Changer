@@ -4,63 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background Changer</title>
-    <style>
-        body{
-            /* margin: 0px; */
-            padding: 20px 200px;
-        }
-        h1{
-            text-align: center;
-            text-decoration: underline;
-        }
-        img{
-            width: 100%;
-            height: auto;
-            margin: 0px auto;
-        }
-        p{
-            text-align: justify;
-            font-size: 20px;
-        }
-        .btn{
-            width: 50px;
-            height: 50px;
-            border: solid grey 2px;
-            display: inline-block;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-        #red{
-            background-color: red;
-        }
-        #aqua{
-            background-color: aqua;
-        }
-        #violet{
-            background-color: violet;
-        }
-        #black{
-            background-color: black;
-        }
-         #green{
-            background-color: green;
-        }
-        #yellow{
-            background-color: yellow;
-        }
-        #purple{
-            background-color: purple;
-        }
-        #blue{
-            background-color: blue;
-        }
-        #color-switcher{
-            text-align: right;
-        }
-        /* .Heading{
-            text-align: centre;
-        } */
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="Heading" > <h1 class="txt">Hi welcome to my Background changer website 	&#129392;</h1></div>
@@ -80,28 +24,6 @@
     <p class="txt">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore commodi nam, sunt ipsam quam, vero mollitia autem perferendis voluptatibus ex aliquam molestias, quos eum voluptas error facere dolores. Repellat reprehenderit aperiam necessitatibus vero, odit quidem magni minus odio a consequatur similique sunt tempore saepe, culpa excepturi quos commodi! Numquam quidem, iusto neque aspernatur ab iure dolorum doloremque ut sapiente eius labore tempora recusandae voluptatum id quibusdam quos illo illum ullam provident nobis rem harum tenetur. Recusandae aliquid voluptatum mollitia voluptates quae quas molestias consequatur eum veritatis facilis laudantium eveniet perspiciatis blanditiis illo, quidem deleniti modi inventore temporibus repellendus dolor adipisci, quam placeat laborum. Assumenda facere quo dolores nisi amet repellat, eius aspernatur autem eum quae? Illum beatae laborum itaque magnam officiis inventore reprehenderit distinctio aut accusamus, dicta sed cumque suscipit voluptatem sapiente cupiditate? Commodi nesciunt ipsam soluta beatae harum earum placeat et consequuntur culpa esse exercitationem, voluptates voluptatum eum ducimus, dignissimos quaerat deleniti? Eveniet est quae accusamus doloremque, ipsa porro quo itaque rerum delectus, ad, quisquam placeat dolores odio consequatur dolorem quod nihil deleniti quidem perspiciatis debitis. Magni alias soluta non, numquam, vel natus voluptas cum repudiandae voluptatem fugiat possimus ipsam, deleniti iure vero? Veritatis ipsam amet hic placeat eius, vero, pariatur et, aut molestias dolorem itaque libero nisi laudantium corrupti similique velit minus atque dolores vitae expedita quis nobis! Perferendis autem, provident ratione saepe culpa repudiandae deserunt? Dolores quia, soluta voluptatibus earum nihil error voluptatum a velit porro, assumenda minima nesciunt cupiditate sint aspernatur officiis accusantium similique. Nobis aliquam quidem dicta consequuntur eos voluptatibus minima omnis itaque velit sit dolorum placeat accusantium fugit, expedita quia odio assumenda at atque. Iste debitis praesentium porro quia reprehenderit error non in repudiandae quae sunt ratione eos vitae, tempore, sed esse. Totam suscipit dolore distinctio repellendus consectetur obcaecati ipsam ullam nobis vel! Dolorum reprehenderit sit possimus vitae at repellendus quod cupiditate, aliquam magnam veniam vel sint sapiente aspernatur consequatur maiores recusandae iure commodi perspiciatis accusantium laudantium quis neque dolor unde adipisci. Unde quasi reiciendis esse optio rerum ad. Quibusdam molestiae cum ipsa, nobis numquam vitae, sint doloremque saepe ratione voluptate dolore, impedit eum perspiciatis obcaecati corrupti magnam iure a ex itaque repudiandae fugit facere. Perspiciatis quos est ad, error laudantium perferendis necessitatibus libero, commodi adipisci, quisquam repudiandae. Repudiandae at autem consectetur temporibus quis nisi, laborum commodi distinctio molestiae dicta recusandae quaerat quod mollitia odit excepturi. Earum nulla et libero dicta tenetur ea. Laboriosam libero eum quas minima saepe sequi optio ipsam quo, nostrum porro et odio harum aspernatur accusantium voluptas magnam nam maxime vel. Esse velit, rerum officia praesentium deserunt assumenda doloribus asperiores voluptatum sunt ipsa fuga magni numquam, labore vitae tempore, deleniti neque animi tempora? Est, sequi? Nisi quas perspiciatis natus reiciendis quae. Suscipit, autem temporibus? Culpa consequatur sint iusto porro iste laudantium! Laborum sequi nihil nobis mollitia earum neque, aspernatur quae! Architecto tempore consequatur ullam! Esse quos unde provident labore enim ratione, eos eius repudiandae vitae dolores rem iste obcaecati ut alias tempore maiores fugit molestiae veritatis sapiente rerum! Labore, minus?
     </p>
-    <script>
-        function changeBG(color){
-            document.body.style.backgroundColor=color;
-            // document.body.style.color='black';
-            // if(color == 'black') {
-            //     document.body.style.color='white';
-            // }
-            let txt=document.getElementsByClassName("txt");
-            //console.log(txt);
-            if(color == 'black') {
-                for(let elm of txt) {
-                    elm.style.color='white';
-                }
-            }
-            else{
-                for(let elm of txt) {
-                    elm.style.color='black';
-                }
-            }
-            
-
-        }
-    </script>
+   <script src="script.js"></script>
 </body>
 </html>
